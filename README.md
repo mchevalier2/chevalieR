@@ -14,7 +14,7 @@ care and feeding of factors.
 ### Installation
 
 ``` r
-devtools::install_github("jennybc/foofactors")
+devtools::install_github("mchevalier2/chevalieR")
 ```
 
 ### Quick demo
@@ -54,19 +54,4 @@ table(x)
 #> x
 #>  a  b  c  d  e 
 #> 25 26 17 17 15
-```
-
-The `fcount()` function returns a frequency table as a tibble with a
-column of factor levels and another of frequencies:
-
-``` r
-fcount(x)
-#> # A tibble: 5 x 2
-#>   f         n
-#>   <fct> <int>
-#> 1 b        26
-#> 2 a        25
-#> 3 c        17
-#> 4 d        17
-#> 5 e        15
 ```

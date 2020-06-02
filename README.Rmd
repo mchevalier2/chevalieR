@@ -23,7 +23,7 @@ Factors are a very useful type of variable in R, but they can also be very aggra
 ### Installation
 
 ```{r installation, eval = FALSE}
-devtools::install_github("jennybc/foofactors")
+devtools::install_github("mchevalier2/chevalieR")
 ```
 
 ### Quick demo
@@ -54,10 +54,4 @@ Often we want a table of frequencies for the levels of a factor. The base `table
 set.seed(1234)
 x <- factor(sample(letters[1:5], size = 100, replace = TRUE))
 table(x)
-```
-
-The `fcount()` function returns a frequency table as a tibble with a column of factor levels and another of frequencies:
-
-```{r}
-fcount(x)
 ```
