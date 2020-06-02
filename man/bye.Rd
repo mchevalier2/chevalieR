@@ -2,7 +2,7 @@
 % Please edit documentation in R/bye.R
 \name{bye}
 \alias{bye}
-\title{Wrap-up function of R's native quit() function.}
+\title{Wrapper function of R's native quit() function.}
 \usage{
 bye()
 }

@@ -1,4 +1,4 @@
-#' Wrap-up function of R's native quit() function.
+#' Wrapper function of R's native quit() function.
 #'
 #' Quit the current working session without saving the current workspace.
 #'

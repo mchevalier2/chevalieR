@@ -1,5 +1,5 @@
 Package: chevalieR
-Title: What the Package Does (One Line, Title Case)
+Title: R Function For Daily Use
 Version: 0.0.0.9000
 Authors@R:
     person(given = "Manuel",
@@ -7,11 +7,13 @@ Authors@R:
            role = c("aut", "cre"),
            email = "chevalier.manuel@gmail.com",
            comment = c(ORCID = "0000-0002-8183-9881"))
-Description: What the package does (one paragraph).
+Description: A bit of this and that for daily use of R.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
-Suggests: 
+Suggests:
     testthat
+Imports: 
+    scales
