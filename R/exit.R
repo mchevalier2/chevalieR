@@ -6,9 +6,9 @@
 
 #' @examples
 #' \dontrun{
-#' bye()
+#' exit()
 #' }
 
-bye <- function() {
+exit <- function() {
    base::quit('no')
 }
